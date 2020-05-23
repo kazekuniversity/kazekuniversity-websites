@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+
+/*html{
+	margin: 0;
+}*/
+
+body {
+	margin: 0;
+
+}
+
+#main-nav,
+#main-footer {
+	background-color: teal;
+}
+
+#main-nav,
+#main-nav a,
+#main-footer,
+#main-footer a {
+	color: white;
+}
+
+#main-nav a,
+#main-footer a {
+	text-decoration: none;
+}
+
+
+
+#main-nav nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0.33rem 1rem;
+}
+
+#main-nav nav ul li a{
+	border: 1px #ffffff solid;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+
+#main-nav nav ul li a:hover, .active{
+	border: 1px #ffffff dashed;
+	background-color: green;
+}
